@@ -22,9 +22,8 @@ namespace Programming.Model.Geometry
             Rectangle rectangle = new Rectangle();
             rectangle.Width = random.Next(MinWidth, MaxWidth);
             rectangle.Lenght = random.Next(MinLenght, MaxLenght);
-            rectangle.Center = new Point2D(
-                random.Next(Margin, widthCanvas - rectangle.Width - Margin),
-                random.Next(Margin, lenghtCanvas - rectangle.Lenght - Margin));
+            rectangle.Center = new Point2D(random.Next(Margin, widthCanvas - rectangle.Width - Margin),
+            random.Next(Margin, lenghtCanvas - rectangle.Lenght - Margin));
             rectangle.Color = colors.GetValue(random.Next(0, colors.Length)).ToString();
             return rectangle;
         }

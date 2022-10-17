@@ -3,14 +3,15 @@
     public class Subject
     {
         private int _mark;
+
+        public Subject() { }
+
         public Subject(string name,string examDate, int mark)
         {
             Name = name;
             ExamDate = examDate;
             Mark = mark;
         }
-
-        public Subject() { }
         public string Name { get; set; }
         public string ExamDate { get; set; }
         public int Mark

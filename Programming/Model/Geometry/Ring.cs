@@ -6,6 +6,9 @@ namespace Programming.Model.Geometry
     {
         private double _outerRadius;
         private double _innerRadius;
+
+        public Ring() { }
+
         public Ring(Point2D center, double outerRadius, double innerRadius)
         {
             OuterRadius = outerRadius;

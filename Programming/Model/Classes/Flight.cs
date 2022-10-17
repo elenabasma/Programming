@@ -6,14 +6,14 @@
         private string _destination;
         private int _flightTimeInMinutes;
 
+        public Flight() { }
+
         public Flight(string departurePoint, string destination, int flightTimeMinutes)
         {
             DeparturePoint = departurePoint;
             Destination = destination;
             FlightTimeInMinutes = flightTimeMinutes;
         }
-
-        public Flight(){}
         public string DeparturePoint { get; set; }
         public string Destination { get; set; }
         public int FlightTimeInMinutes

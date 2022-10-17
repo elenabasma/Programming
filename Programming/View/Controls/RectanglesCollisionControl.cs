@@ -29,9 +29,9 @@ namespace Programming.View.Controls
 
         private void FindCollision()
         {
-            for (int k = 0; k < _rectangles.Count; k++)
+            for (int i = 0; i < _rectangles.Count; i++)
             {
-                panelCanvas.Controls[k].BackColor = AppColors.NonCollision;
+                panelCanvas.Controls[i].BackColor = AppColors.NonCollision;
             }
 
             for (int i = 0; i < _rectangles.Count - 1; i++)
@@ -79,26 +79,6 @@ namespace Programming.View.Controls
             listBoxRectangles.Items[index] = SetRectangleDescription(rectangle);
         }
 
-        private void AddButton_MouseEnter(object sender, EventArgs e)
-        {
-            buttonAddRectangle.Image = Properties.Resources.rectangle_add_24x24;
-        }
-
-        private void AddButton_MouseLeave(object sender, EventArgs e)
-        {
-            buttonAddRectangle.Image = Properties.Resources.rectangle_add_24x24_uncolor;
-        }
-
-        private void RemoveButton_MouseEnter(object sender, EventArgs e)
-        {
-            buttonRemoveSelectedRectangle.Image = Properties.Resources.rectangle_remove_24x24;
-        }
-
-        private void RemoveButton_MouseLeave(object sender, EventArgs e)
-        {
-            buttonRemoveSelectedRectangle.Image = Properties.Resources.rectangle_remove_24x24_uncolor;
-        }
-
         private void AddButton_Click(object sender, EventArgs e)
         {
             _currentRectangle = RectangleFactory.Randomize(panelCanvas.Width, panelCanvas.Height);
@@ -133,7 +113,7 @@ namespace Programming.View.Controls
 
         private void RectanglesXTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (listBoxRectangles.SelectedIndex == -1) return;
+            if (listBoxRectangles.SelectedIndex == -1 ) return;
 
             try
             {
@@ -155,7 +135,7 @@ namespace Programming.View.Controls
 
         private void RectanglesYTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (listBoxRectangles.SelectedIndex == -1) return;
+            if (listBoxRectangles.SelectedIndex == -1 ) return;
 
             try
             {
@@ -177,7 +157,7 @@ namespace Programming.View.Controls
 
         private void RectanglesWidthTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (listBoxRectangles.SelectedIndex == -1) return;
+            if (listBoxRectangles.SelectedIndex == -1 ) return;
 
             try
             {
@@ -198,7 +178,7 @@ namespace Programming.View.Controls
 
         private void RectanglesLenghtTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (listBoxRectangles.SelectedIndex == -1) return;
+            if (listBoxRectangles.SelectedIndex == -1 ) return;
 
             try
             {
@@ -228,6 +208,25 @@ namespace Programming.View.Controls
             textBoxRectangleSelectedY.Text = _currentRectangle.Center.Y.ToString();
             textBoxRectangleSelectedWidth.Text = _currentRectangle.Width.ToString();
             textBoxRectangleSelectedLenght.Text = _currentRectangle.Lenght.ToString();
+        }
+        private void AddButton_MouseEnter(object sender, EventArgs e)
+        {
+            buttonAddRectangle.Image = Properties.Resources.rectangle_add_24x24;
+        }
+
+        private void AddButton_MouseLeave(object sender, EventArgs e)
+        {
+            buttonAddRectangle.Image = Properties.Resources.rectangle_add_24x24_uncolor;
+        }
+
+        private void RemoveButton_MouseEnter(object sender, EventArgs e)
+        {
+            buttonRemoveSelectedRectangle.Image = Properties.Resources.rectangle_remove_24x24;
+        }
+
+        private void RemoveButton_MouseLeave(object sender, EventArgs e)
+        {
+            buttonRemoveSelectedRectangle.Image = Properties.Resources.rectangle_remove_24x24_uncolor;
         }
     }
 }

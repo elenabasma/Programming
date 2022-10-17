@@ -5,14 +5,14 @@
         private string _phoneNumber;
         private string _firstName;
         private string _lastName;
+
+        public Contact() { }
         public Contact(string phoneNumber, string firstName, string lastName)
         {
             PhoneNumber = phoneNumber;
             FirstName = firstName;
             LastName = lastName;
         }
-
-        public Contact() { }
 
         public string PhoneNumber
         {

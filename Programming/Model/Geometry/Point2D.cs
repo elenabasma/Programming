@@ -5,13 +5,13 @@
         private int _x;
         private int _y;
 
+        public Point2D() { }
+
         public Point2D(int x, int y)
         {
             X = x;
             Y = y;
         }
-
-        public Point2D(){}
 
         public int X
         {
