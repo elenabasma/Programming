@@ -50,7 +50,6 @@ namespace Programming.View.Controls
             // textBoxRectangleId
             // 
             this.textBoxRectangleId.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxRectangleId.Enabled = false;
             this.textBoxRectangleId.Location = new System.Drawing.Point(217, 273);
             this.textBoxRectangleId.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxRectangleId.Name = "textBoxRectangleId";
@@ -71,7 +70,6 @@ namespace Programming.View.Controls
             // textBoxRectangleY
             // 
             this.textBoxRectangleY.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxRectangleY.Enabled = false;
             this.textBoxRectangleY.Location = new System.Drawing.Point(217, 227);
             this.textBoxRectangleY.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxRectangleY.Name = "textBoxRectangleY";
@@ -92,7 +90,6 @@ namespace Programming.View.Controls
             // textBoxRectangleX
             // 
             this.textBoxRectangleX.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxRectangleX.Enabled = false;
             this.textBoxRectangleX.Location = new System.Drawing.Point(217, 181);
             this.textBoxRectangleX.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxRectangleX.Name = "textBoxRectangleX";

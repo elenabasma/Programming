@@ -162,7 +162,6 @@ namespace Programming.View.Controls
             // textBoxRectangleSelectedId
             // 
             this.textBoxRectangleSelectedId.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxRectangleSelectedId.Enabled = false;
             this.textBoxRectangleSelectedId.Location = new System.Drawing.Point(73, 241);
             this.textBoxRectangleSelectedId.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxRectangleSelectedId.Name = "textBoxRectangleSelectedId";

@@ -27,7 +27,6 @@ namespace Programming.View.Controls
             // textBoxIntValue
             // 
             this.textBoxIntValue.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxIntValue.Enabled = false;
             this.textBoxIntValue.Location = new System.Drawing.Point(332, 32);
             this.textBoxIntValue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxIntValue.Name = "textBoxIntValue";

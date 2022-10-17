@@ -12,9 +12,6 @@ namespace Programming.Properties {
     using System;
     
     
-    /// <summary>
-    ///   Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
-    /// </summary>
     // Этот класс создан автоматически классом StronglyTypedResourceBuilder
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
@@ -32,9 +29,6 @@ namespace Programming.Properties {
         internal Resources() {
         }
         
-        /// <summary>
-        ///   Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
-        /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
@@ -46,10 +40,6 @@ namespace Programming.Properties {
             }
         }
         
-        /// <summary>
-        ///   Перезаписывает свойство CurrentUICulture текущего потока для всех
-        ///   обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
-        /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static global::System.Globalization.CultureInfo Culture {
             get {
@@ -60,9 +50,6 @@ namespace Programming.Properties {
             }
         }
         
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap rectangle_add_24x24 {
             get {
                 object obj = ResourceManager.GetObject("rectangle_add_24x24", resourceCulture);
@@ -70,9 +57,6 @@ namespace Programming.Properties {
             }
         }
         
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap rectangle_add_24x24_uncolor {
             get {
                 object obj = ResourceManager.GetObject("rectangle_add_24x24_uncolor", resourceCulture);
@@ -80,9 +64,6 @@ namespace Programming.Properties {
             }
         }
         
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap rectangle_edit_24x24 {
             get {
                 object obj = ResourceManager.GetObject("rectangle_edit_24x24", resourceCulture);
@@ -90,9 +71,6 @@ namespace Programming.Properties {
             }
         }
         
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap rectangle_edit_24x24_uncolor {
             get {
                 object obj = ResourceManager.GetObject("rectangle_edit_24x24_uncolor", resourceCulture);
@@ -100,9 +78,6 @@ namespace Programming.Properties {
             }
         }
         
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap rectangle_remove_24x24 {
             get {
                 object obj = ResourceManager.GetObject("rectangle_remove_24x24", resourceCulture);
@@ -110,9 +85,6 @@ namespace Programming.Properties {
             }
         }
         
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap rectangle_remove_24x24_uncolor {
             get {
                 object obj = ResourceManager.GetObject("rectangle_remove_24x24_uncolor", resourceCulture);
