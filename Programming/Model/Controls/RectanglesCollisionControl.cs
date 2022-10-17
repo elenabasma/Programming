@@ -202,9 +202,9 @@ namespace Programming.View.Controls
 
             try
             {
-                string currentHeightRectangle = textBoxRectangleSelectedLenght.Text;
-                int heightRectangleValue = int.Parse(currentHeightRectangle);
-                _currentRectangle.Lenght = heightRectangleValue;
+                string currentLenghtRectangle = textBoxRectangleSelectedLenght.Text;
+                int lenghtRectangleValue = int.Parse(currentLenghtRectangle);
+                _currentRectangle.Lenght = lenghtRectangleValue;
                 panelCanvas.Controls[listBoxRectangles.SelectedIndex].Height = _currentRectangle.Lenght;
                 FindCollision();
                 UpdateRectangleInfo(_currentRectangle);
