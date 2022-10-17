@@ -32,7 +32,7 @@ namespace Programming.View.Controls
             this.comboBoxSeasons.Location = new System.Drawing.Point(9, 33);
             this.comboBoxSeasons.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxSeasons.Name = "comboBoxSeasons";
-            this.comboBoxSeasons.Size = new System.Drawing.Size(299, 24);
+            this.comboBoxSeasons.Size = new System.Drawing.Size(200, 24);
             this.comboBoxSeasons.TabIndex = 3;
             // 
             // labelSeason
@@ -46,10 +46,10 @@ namespace Programming.View.Controls
             // 
             // buttonGo
             // 
-            this.buttonGo.Location = new System.Drawing.Point(315, 33);
+            this.buttonGo.Location = new System.Drawing.Point(215, 33);
             this.buttonGo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonGo.Name = "buttonGo";
-            this.buttonGo.Size = new System.Drawing.Size(100, 28);
+            this.buttonGo.Size = new System.Drawing.Size(100, 27);
             this.buttonGo.TabIndex = 9;
             this.buttonGo.Text = "Go!";
             this.buttonGo.UseVisualStyleBackColor = true;
@@ -62,7 +62,7 @@ namespace Programming.View.Controls
             this.Controls.Add(this.buttonGo);
             this.Controls.Add(this.labelSeason);
             this.Controls.Add(this.comboBoxSeasons);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "controlSeasonsHandle";
             this.Size = new System.Drawing.Size(421, 84);
             this.ResumeLayout(false);

@@ -40,7 +40,7 @@ namespace Programming.View.Controls
             // labelRectangleId
             // 
             this.labelRectangleId.AutoSize = true;
-            this.labelRectangleId.Location = new System.Drawing.Point(214, 253);
+            this.labelRectangleId.Location = new System.Drawing.Point(214, 234);
             this.labelRectangleId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRectangleId.Name = "labelRectangleId";
             this.labelRectangleId.Size = new System.Drawing.Size(21, 16);
@@ -50,7 +50,7 @@ namespace Programming.View.Controls
             // textBoxRectangleId
             // 
             this.textBoxRectangleId.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxRectangleId.Location = new System.Drawing.Point(217, 273);
+            this.textBoxRectangleId.Location = new System.Drawing.Point(212, 254);
             this.textBoxRectangleId.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxRectangleId.Name = "textBoxRectangleId";
             this.textBoxRectangleId.ReadOnly = true;
@@ -60,7 +60,7 @@ namespace Programming.View.Controls
             // labelRectangleY
             // 
             this.labelRectangleY.AutoSize = true;
-            this.labelRectangleY.Location = new System.Drawing.Point(214, 207);
+            this.labelRectangleY.Location = new System.Drawing.Point(214, 188);
             this.labelRectangleY.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRectangleY.Name = "labelRectangleY";
             this.labelRectangleY.Size = new System.Drawing.Size(19, 16);
@@ -70,7 +70,7 @@ namespace Programming.View.Controls
             // textBoxRectangleY
             // 
             this.textBoxRectangleY.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxRectangleY.Location = new System.Drawing.Point(217, 227);
+            this.textBoxRectangleY.Location = new System.Drawing.Point(212, 208);
             this.textBoxRectangleY.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxRectangleY.Name = "textBoxRectangleY";
             this.textBoxRectangleY.ReadOnly = true;
@@ -80,7 +80,7 @@ namespace Programming.View.Controls
             // labelRectangleX
             // 
             this.labelRectangleX.AutoSize = true;
-            this.labelRectangleX.Location = new System.Drawing.Point(214, 161);
+            this.labelRectangleX.Location = new System.Drawing.Point(214, 142);
             this.labelRectangleX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRectangleX.Name = "labelRectangleX";
             this.labelRectangleX.Size = new System.Drawing.Size(18, 16);
@@ -90,7 +90,7 @@ namespace Programming.View.Controls
             // textBoxRectangleX
             // 
             this.textBoxRectangleX.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxRectangleX.Location = new System.Drawing.Point(217, 181);
+            this.textBoxRectangleX.Location = new System.Drawing.Point(212, 162);
             this.textBoxRectangleX.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxRectangleX.Name = "textBoxRectangleX";
             this.textBoxRectangleX.ReadOnly = true;
@@ -99,7 +99,7 @@ namespace Programming.View.Controls
             // 
             // buttonRectangleFind
             // 
-            this.buttonRectangleFind.Location = new System.Drawing.Point(217, 383);
+            this.buttonRectangleFind.Location = new System.Drawing.Point(212, 364);
             this.buttonRectangleFind.Margin = new System.Windows.Forms.Padding(4);
             this.buttonRectangleFind.Name = "buttonRectangleFind";
             this.buttonRectangleFind.Size = new System.Drawing.Size(132, 28);
@@ -111,7 +111,7 @@ namespace Programming.View.Controls
             // labelRectangleColor
             // 
             this.labelRectangleColor.AutoSize = true;
-            this.labelRectangleColor.Location = new System.Drawing.Point(219, 115);
+            this.labelRectangleColor.Location = new System.Drawing.Point(214, 96);
             this.labelRectangleColor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRectangleColor.Name = "labelRectangleColor";
             this.labelRectangleColor.Size = new System.Drawing.Size(42, 16);
@@ -121,7 +121,7 @@ namespace Programming.View.Controls
             // labelRectangleWidth
             // 
             this.labelRectangleWidth.AutoSize = true;
-            this.labelRectangleWidth.Location = new System.Drawing.Point(217, 69);
+            this.labelRectangleWidth.Location = new System.Drawing.Point(214, 50);
             this.labelRectangleWidth.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRectangleWidth.Name = "labelRectangleWidth";
             this.labelRectangleWidth.Size = new System.Drawing.Size(44, 16);
@@ -131,7 +131,7 @@ namespace Programming.View.Controls
             // labelRectangleLenght
             // 
             this.labelRectangleLenght.AutoSize = true;
-            this.labelRectangleLenght.Location = new System.Drawing.Point(217, 23);
+            this.labelRectangleLenght.Location = new System.Drawing.Point(214, 4);
             this.labelRectangleLenght.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRectangleLenght.Name = "labelRectangleLenght";
             this.labelRectangleLenght.Size = new System.Drawing.Size(50, 16);
@@ -140,7 +140,7 @@ namespace Programming.View.Controls
             // 
             // textBoxRectangleColor
             // 
-            this.textBoxRectangleColor.Location = new System.Drawing.Point(217, 135);
+            this.textBoxRectangleColor.Location = new System.Drawing.Point(212, 116);
             this.textBoxRectangleColor.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxRectangleColor.Name = "textBoxRectangleColor";
             this.textBoxRectangleColor.Size = new System.Drawing.Size(132, 22);
@@ -149,7 +149,7 @@ namespace Programming.View.Controls
             // 
             // textBoxRectangleWidth
             // 
-            this.textBoxRectangleWidth.Location = new System.Drawing.Point(217, 89);
+            this.textBoxRectangleWidth.Location = new System.Drawing.Point(212, 70);
             this.textBoxRectangleWidth.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxRectangleWidth.Name = "textBoxRectangleWidth";
             this.textBoxRectangleWidth.Size = new System.Drawing.Size(132, 22);
@@ -158,7 +158,7 @@ namespace Programming.View.Controls
             // 
             // textBoxRectangleLenght
             // 
-            this.textBoxRectangleLenght.Location = new System.Drawing.Point(217, 43);
+            this.textBoxRectangleLenght.Location = new System.Drawing.Point(212, 24);
             this.textBoxRectangleLenght.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxRectangleLenght.Name = "textBoxRectangleLenght";
             this.textBoxRectangleLenght.Size = new System.Drawing.Size(132, 22);
@@ -169,7 +169,7 @@ namespace Programming.View.Controls
             // 
             this.listBoxRectangle.FormattingEnabled = true;
             this.listBoxRectangle.ItemHeight = 16;
-            this.listBoxRectangle.Location = new System.Drawing.Point(9, 23);
+            this.listBoxRectangle.Location = new System.Drawing.Point(4, 4);
             this.listBoxRectangle.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxRectangle.Name = "listBoxRectangle";
             this.listBoxRectangle.Size = new System.Drawing.Size(200, 388);
@@ -196,7 +196,7 @@ namespace Programming.View.Controls
             this.Controls.Add(this.textBoxRectangleColor);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "controlRectangles";
-            this.Size = new System.Drawing.Size(421, 482);
+            this.Size = new System.Drawing.Size(354, 404);
             this.ResumeLayout(false);
             this.PerformLayout();
 

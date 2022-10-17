@@ -37,10 +37,10 @@ namespace Programming.View.Controls
             // 
             // buttonWeekdayParse
             // 
-            this.buttonWeekdayParse.Location = new System.Drawing.Point(300, 29);
+            this.buttonWeekdayParse.Location = new System.Drawing.Point(215, 29);
             this.buttonWeekdayParse.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonWeekdayParse.Name = "buttonWeekdayParse";
-            this.buttonWeekdayParse.Size = new System.Drawing.Size(108, 26);
+            this.buttonWeekdayParse.Size = new System.Drawing.Size(108, 27);
             this.buttonWeekdayParse.TabIndex = 8;
             this.buttonWeekdayParse.Text = "Parse";
             this.buttonWeekdayParse.UseVisualStyleBackColor = true;
@@ -51,7 +51,7 @@ namespace Programming.View.Controls
             this.textBoxWeekday.Location = new System.Drawing.Point(9, 31);
             this.textBoxWeekday.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxWeekday.Name = "textBoxWeekday";
-            this.textBoxWeekday.Size = new System.Drawing.Size(285, 22);
+            this.textBoxWeekday.Size = new System.Drawing.Size(200, 22);
             this.textBoxWeekday.TabIndex = 6;
             // 
             // labelParsing

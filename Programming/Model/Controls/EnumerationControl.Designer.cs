@@ -27,7 +27,7 @@ namespace Programming.View.Controls
             // textBoxIntValue
             // 
             this.textBoxIntValue.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxIntValue.Location = new System.Drawing.Point(332, 32);
+            this.textBoxIntValue.Location = new System.Drawing.Point(292, 27);
             this.textBoxIntValue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxIntValue.Name = "textBoxIntValue";
             this.textBoxIntValue.ReadOnly = true;
@@ -37,7 +37,7 @@ namespace Programming.View.Controls
             // labelIntValue
             // 
             this.labelIntValue.AutoSize = true;
-            this.labelIntValue.Location = new System.Drawing.Point(329, 14);
+            this.labelIntValue.Location = new System.Drawing.Point(289, 9);
             this.labelIntValue.Name = "labelIntValue";
             this.labelIntValue.Size = new System.Drawing.Size(59, 16);
             this.labelIntValue.TabIndex = 4;
@@ -47,7 +47,7 @@ namespace Programming.View.Controls
             // 
             this.listBoxValues.FormattingEnabled = true;
             this.listBoxValues.ItemHeight = 16;
-            this.listBoxValues.Location = new System.Drawing.Point(173, 32);
+            this.listBoxValues.Location = new System.Drawing.Point(149, 27);
             this.listBoxValues.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBoxValues.Name = "listBoxValues";
             this.listBoxValues.Size = new System.Drawing.Size(137, 228);
@@ -58,7 +58,7 @@ namespace Programming.View.Controls
             // 
             this.listBoxEnums.FormattingEnabled = true;
             this.listBoxEnums.ItemHeight = 16;
-            this.listBoxEnums.Location = new System.Drawing.Point(12, 32);
+            this.listBoxEnums.Location = new System.Drawing.Point(6, 27);
             this.listBoxEnums.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBoxEnums.Name = "listBoxEnums";
             this.listBoxEnums.Size = new System.Drawing.Size(137, 228);
@@ -68,7 +68,7 @@ namespace Programming.View.Controls
             // labelChooseValue
             // 
             this.labelChooseValue.AutoSize = true;
-            this.labelChooseValue.Location = new System.Drawing.Point(169, 14);
+            this.labelChooseValue.Location = new System.Drawing.Point(146, 9);
             this.labelChooseValue.Name = "labelChooseValue";
             this.labelChooseValue.Size = new System.Drawing.Size(93, 16);
             this.labelChooseValue.TabIndex = 1;
@@ -77,7 +77,7 @@ namespace Programming.View.Controls
             // labelChooseEnumeration
             // 
             this.labelChooseEnumeration.AutoSize = true;
-            this.labelChooseEnumeration.Location = new System.Drawing.Point(8, 14);
+            this.labelChooseEnumeration.Location = new System.Drawing.Point(3, 9);
             this.labelChooseEnumeration.Name = "labelChooseEnumeration";
             this.labelChooseEnumeration.Size = new System.Drawing.Size(134, 16);
             this.labelChooseEnumeration.TabIndex = 0;

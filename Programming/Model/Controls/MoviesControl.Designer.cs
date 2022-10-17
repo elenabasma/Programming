@@ -33,7 +33,7 @@ namespace Programming.View.Controls
             // labelMovieDuration
             // 
             this.labelMovieDuration.AutoSize = true;
-            this.labelMovieDuration.Location = new System.Drawing.Point(217, 207);
+            this.labelMovieDuration.Location = new System.Drawing.Point(212, 188);
             this.labelMovieDuration.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelMovieDuration.Name = "labelMovieDuration";
             this.labelMovieDuration.Size = new System.Drawing.Size(60, 16);
@@ -42,7 +42,7 @@ namespace Programming.View.Controls
             // 
             // textBoxMovieDuration
             // 
-            this.textBoxMovieDuration.Location = new System.Drawing.Point(220, 227);
+            this.textBoxMovieDuration.Location = new System.Drawing.Point(212, 208);
             this.textBoxMovieDuration.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxMovieDuration.Name = "textBoxMovieDuration";
             this.textBoxMovieDuration.Size = new System.Drawing.Size(132, 22);
@@ -52,7 +52,7 @@ namespace Programming.View.Controls
             // labelYearOfRelease
             // 
             this.labelYearOfRelease.AutoSize = true;
-            this.labelYearOfRelease.Location = new System.Drawing.Point(217, 161);
+            this.labelYearOfRelease.Location = new System.Drawing.Point(212, 142);
             this.labelYearOfRelease.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelYearOfRelease.Name = "labelYearOfRelease";
             this.labelYearOfRelease.Size = new System.Drawing.Size(102, 16);
@@ -61,7 +61,7 @@ namespace Programming.View.Controls
             // 
             // textBoxYearOfRelease
             // 
-            this.textBoxYearOfRelease.Location = new System.Drawing.Point(220, 181);
+            this.textBoxYearOfRelease.Location = new System.Drawing.Point(212, 162);
             this.textBoxYearOfRelease.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxYearOfRelease.Name = "textBoxYearOfRelease";
             this.textBoxYearOfRelease.Size = new System.Drawing.Size(132, 22);
@@ -70,7 +70,7 @@ namespace Programming.View.Controls
             // 
             // buttonMovieFind
             // 
-            this.buttonMovieFind.Location = new System.Drawing.Point(220, 399);
+            this.buttonMovieFind.Location = new System.Drawing.Point(212, 364);
             this.buttonMovieFind.Margin = new System.Windows.Forms.Padding(4);
             this.buttonMovieFind.Name = "buttonMovieFind";
             this.buttonMovieFind.Size = new System.Drawing.Size(132, 28);
@@ -82,7 +82,7 @@ namespace Programming.View.Controls
             // labelMovieRating
             // 
             this.labelMovieRating.AutoSize = true;
-            this.labelMovieRating.Location = new System.Drawing.Point(217, 115);
+            this.labelMovieRating.Location = new System.Drawing.Point(212, 96);
             this.labelMovieRating.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelMovieRating.Name = "labelMovieRating";
             this.labelMovieRating.Size = new System.Drawing.Size(49, 16);
@@ -92,7 +92,7 @@ namespace Programming.View.Controls
             // labelMovieGenre
             // 
             this.labelMovieGenre.AutoSize = true;
-            this.labelMovieGenre.Location = new System.Drawing.Point(217, 69);
+            this.labelMovieGenre.Location = new System.Drawing.Point(212, 50);
             this.labelMovieGenre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelMovieGenre.Name = "labelMovieGenre";
             this.labelMovieGenre.Size = new System.Drawing.Size(47, 16);
@@ -102,7 +102,7 @@ namespace Programming.View.Controls
             // labelMovieTitle
             // 
             this.labelMovieTitle.AutoSize = true;
-            this.labelMovieTitle.Location = new System.Drawing.Point(217, 23);
+            this.labelMovieTitle.Location = new System.Drawing.Point(212, 4);
             this.labelMovieTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelMovieTitle.Name = "labelMovieTitle";
             this.labelMovieTitle.Size = new System.Drawing.Size(36, 16);
@@ -111,7 +111,7 @@ namespace Programming.View.Controls
             // 
             // textBoxMovieRating
             // 
-            this.textBoxMovieRating.Location = new System.Drawing.Point(220, 135);
+            this.textBoxMovieRating.Location = new System.Drawing.Point(212, 116);
             this.textBoxMovieRating.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxMovieRating.Name = "textBoxMovieRating";
             this.textBoxMovieRating.Size = new System.Drawing.Size(132, 22);
@@ -120,7 +120,7 @@ namespace Programming.View.Controls
             // 
             // textBoxMovieGenre
             // 
-            this.textBoxMovieGenre.Location = new System.Drawing.Point(220, 89);
+            this.textBoxMovieGenre.Location = new System.Drawing.Point(212, 70);
             this.textBoxMovieGenre.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxMovieGenre.Name = "textBoxMovieGenre";
             this.textBoxMovieGenre.Size = new System.Drawing.Size(132, 22);
@@ -129,7 +129,7 @@ namespace Programming.View.Controls
             // 
             // textBoxMovieTitle
             // 
-            this.textBoxMovieTitle.Location = new System.Drawing.Point(220, 43);
+            this.textBoxMovieTitle.Location = new System.Drawing.Point(212, 24);
             this.textBoxMovieTitle.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxMovieTitle.Name = "textBoxMovieTitle";
             this.textBoxMovieTitle.Size = new System.Drawing.Size(132, 22);
@@ -140,10 +140,10 @@ namespace Programming.View.Controls
             // 
             this.listBoxMovie.FormattingEnabled = true;
             this.listBoxMovie.ItemHeight = 16;
-            this.listBoxMovie.Location = new System.Drawing.Point(9, 23);
+            this.listBoxMovie.Location = new System.Drawing.Point(4, 4);
             this.listBoxMovie.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxMovie.Name = "listBoxMovie";
-            this.listBoxMovie.Size = new System.Drawing.Size(200, 404);
+            this.listBoxMovie.Size = new System.Drawing.Size(200, 388);
             this.listBoxMovie.TabIndex = 0;
             this.listBoxMovie.SelectedIndexChanged += new System.EventHandler(this.MovieListBox_SelectedIndexChanged);
             // 
@@ -165,7 +165,7 @@ namespace Programming.View.Controls
             this.Controls.Add(this.textBoxMovieGenre);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "controlMovies";
-            this.Size = new System.Drawing.Size(421, 482);
+            this.Size = new System.Drawing.Size(352, 402);
             this.ResumeLayout(false);
             this.PerformLayout();
 
